@@ -515,6 +515,11 @@ const Home = (props) => {
             rootClassName="article-root-class-name"
           ></Article>
         </main>
+        <form
+          autoComplete="given-name"
+          enctype="multipart/form-data"
+          className="home-form"
+        ></form>
       </section>
       <section className="home-section16">
         <header className="home-header12">

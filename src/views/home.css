@@ -273,12 +273,22 @@
   flex: 1;
   display: flex;
   align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
   flex-direction: row;
   justify-content: flex-end;
+  border-top-left-radius: 500;
 }
 .home-image08 {
-  width: 514px;
+  width: 489px;
+  align-self: center;
   object-fit: cover;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-left-radius: 100;
+  border-top-right-radius: 100;
+  border-bottom-left-radius: 100;
+  border-bottom-right-radius: 100;
 }
 .home-section02 {
   gap: var(--dl-space-space-sixunits);
@@ -1264,6 +1274,13 @@
   flex-direction: row;
   justify-content: center;
 }
+.home-form {
+  width: 1066px;
+  height: 528px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
 .home-section16 {
   gap: var(--dl-space-space-fiveunits);
   flex: 1;
@@ -1531,6 +1548,7 @@
   color: #C4C4C4;
   width: 100%;
   font-size: 14px;
+  text-align: left;
   font-family: Poppins;
   line-height: 21px;
 }
