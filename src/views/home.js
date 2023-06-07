@@ -130,7 +130,7 @@ const Home = (props) => {
           <div className="home-image07">
             <img
               alt="image"
-              src="/SectionImages/group%201490-1200w.png"
+              src="https://images.unsplash.com/photo-1674574124976-a56d9052c2f8?ixid=M3w5MTMyMXwxfDF8YWxsfDF8fHx8fHwyfHwxNjg2MTIzMDgwfA&amp;ixlib=rb-4.0.3&amp;w=1200"
               className="home-image08"
             />
           </div>
